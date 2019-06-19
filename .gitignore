@@ -1,0 +1,7 @@
+data/
+*.so
+*.pyc
+*.swp
+shmpy/shmpy.cpp
+build/
+spherical_harmonics/bin/
