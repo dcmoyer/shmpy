@@ -19,5 +19,7 @@ Use at your own risk.
 Run the following in the root directory of the repo:
 
     make
-    cp build/lib* local_python_repo/shmpy.so
+
+The compiled library will be at `shmpy/shmpy.*.so` where the wildcard is the
+compiling python version.
 
