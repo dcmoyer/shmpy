@@ -92,7 +92,7 @@ cdef class Py_SH_Wrapper:
   #THIS IS WHERE THE REAL STUFF WILL GO DOWN
   def fit_sh(self, K, np.ndarray vecs, np.ndarray scalars,
     vector[int] vecs_shape, vector[int] scalars_shape):
-    print("Hello from the Python Wrapper.")
+    #print("Hello from the Python Wrapper.")
 
     cdef vector[double] output
 
@@ -116,7 +116,7 @@ cdef class Py_SH_Wrapper:
   #secretly, this fits all coefs and then just outputs only evens
   def fit_even_sh(self, K, np.ndarray vecs, np.ndarray scalars,
     vector[int] vecs_shape, vector[int] scalars_shape, all_same=False):
-    print("Hello from the Python Wrapper.")
+    #print("Hello from the Python Wrapper.")
     cdef vector[double] output
     self.wrapper_ptr.run_even(\
       K, vecs, scalars, vecs_shape, scalars_shape, output, all_same)

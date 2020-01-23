@@ -41,7 +41,7 @@
 #include <memory>
 #include <vector>
 
-#include "sh/image.h"
+#include "image.h"
 
 namespace sh {
 

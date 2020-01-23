@@ -23,3 +23,10 @@ Run the following in the root directory of the repo:
 The compiled library will be at `shmpy/shmpy.*.so` where the wildcard is the
 compiling python version.
 
+The Eigen Library will sometimes be installed with structure:
+
+   .../eigen3/Eigen/
+
+Putting the full path of both the `eigen3` and the `eigen3/Eigen/` directories on the
+`include` path (e.g. `CPLUS_INCLUDE_PATH` on Linux) can resolve some inclusion issues.
+

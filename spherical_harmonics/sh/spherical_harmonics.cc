@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-#include "sh/spherical_harmonics.h"
+#include "spherical_harmonics.h"
 
 #include <iostream>
 #include <limits>
