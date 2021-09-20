@@ -110,7 +110,7 @@ cdef class Py_SH_Wrapper:
     #for k in range(0,K+1,2):
     #  n_coef += 2*k + 1
     n_coef = self.wrapper_ptr.check_num_even_coef(K)
-    print("[shmpy/sh_wrap] K=%i n_even_coef=%i" % (K, n_coef))
+    #print("[shmpy/sh_wrap] K=%i n_even_coef=%i" % (K, n_coef))
     return n_coef
 
   #secretly, this fits all coefs and then just outputs only evens
